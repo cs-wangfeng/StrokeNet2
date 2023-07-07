@@ -14,7 +14,10 @@ Expanding the StrokeNet paper
 使用split.py将原有包含韩语和英语的txt文件分成两个文件，分别包含韩语和英语（需要修改文件名称如train, validation, test等）  
 
 ## 韩语字母拉丁化  
-关于韩语字母的频率，有一个[中文链接](https://m.hujiang.com/kr/p195931/)  
+关于韩语字母的频率，有一个[中文链接](https://m.hujiang.com/kr/p195931/)    
+图片：  
+<img src="https://github.com/cs-wangfeng/StrokeNet2/assets/83827774/220fabea-2c08-4ba4-adbc-649988837b37" style="zoom:25%;" />
+
 
 有些细节需要明白：    
 - ㅐ是分成哪两部分（两种切分方式）  
