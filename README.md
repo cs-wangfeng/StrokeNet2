@@ -55,3 +55,18 @@ Expanding the StrokeNet paper
 | ㅑ    | k    | 0.00269273                       | 0.0008038  |            |            |            |            |            |            |            |            | 0.00349653 |
 | ㅠ    | j    | 0.00269273                       |            |            |            |            |            |            |            |            |            | 0.00269273 |
 | ㅋ    | x    | 0.00233259                       |            |            |            |            |            |            |            |            |            | 0.00233259 |
+
+
+接下来构造ko2letter.txt表（类似vocab/zh2letter.txt）  
+
+首先获得韩语的文字表[链接](https://www.loc.gov/marc/specifications/specchareacc/KoreanHangul.html)
+
+通过处理得到korean_char.txt，共2028行  
+
+调研得到hgtk(python lib)可以用于拆分韩文字
+
+
+
+
+
+
