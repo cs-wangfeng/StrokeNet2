@@ -69,6 +69,6 @@ Expanding the StrokeNet paper
 
 使用decompose.py将korean_char.txt通过字母拆解编号的方式得到每个韩文字对应的拉丁字母化结果
 
-
+删去ancient korean等一些无法显示的韩语文字，获得最终版的ko2letter.txt表
 
 
