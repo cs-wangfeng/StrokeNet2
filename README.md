@@ -14,6 +14,8 @@ Expanding the StrokeNet paper
 使用split.py将原有包含韩语和英语的txt文件分成两个文件，分别包含韩语和英语（需要修改文件名称如train, validation, test等）  
 
 ## 韩语字母拉丁化  
+
+### 调研
 关于韩语字母的频率，有一个[中文链接](https://m.hujiang.com/kr/p195931/)    
 图片：  
 <img src="https://github.com/cs-wangfeng/StrokeNet2/assets/83827774/220fabea-2c08-4ba4-adbc-649988837b37" style="zoom:25%;" />
@@ -27,7 +29,7 @@ Expanding the StrokeNet paper
 字母拆分：    
 <img src="https://github.com/cs-wangfeng/StrokeNet2/assets/83827774/8ed72772-1a78-42e9-b3b4-4fcbc4afa4b6" style="zoom:25%;" />
 
-据此得到的24基本韩语字母排序以及对应的英文字母：  
+### 得到24基本韩语字母排序以及对应的英文字母：  
 *：通过韩国科学技术院统计的40字母出现频率经过拆分和计算得到24基本字母频率  
 | 韩语字母 | 英文字母 | * |       *     |      *      |       *     |    *        |     *       |       *     |        *    |      *      |       *     | 总频率        |
 |------|------|----------------------------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
@@ -57,7 +59,7 @@ Expanding the StrokeNet paper
 | ㅋ    | x    | 0.00233259                       |            |            |            |            |            |            |            |            |            | 0.00233259 |
 
 
-接下来构造ko2letter.txt表（类似vocab/zh2letter.txt）  
+### 接下来构造ko2letter.txt表（类似vocab/zh2letter.txt）  
 
 首先获得韩语的文字表[链接](https://www.loc.gov/marc/specifications/specchareacc/KoreanHangul.html)
 
@@ -65,7 +67,7 @@ Expanding the StrokeNet paper
 
 调研得到hgtk(python lib)可以用于拆分韩文字
 
-
+使用decompose.py将korean_char.txt通过字母拆解编号的方式得到每个韩文字对应的拉丁字母化结果
 
 
 
