@@ -1,4 +1,4 @@
-# StrokeNet2
+![R8 (L2LTHWF4E`PMW9YOFCF](https://github.com/cs-wangfeng/StrokeNet2/assets/83827774/14ad499b-a2b4-4186-ad5c-ced14d535a96)# StrokeNet2
 Expanding the StrokeNet paper
 
 ## 数据获取
@@ -20,4 +20,7 @@ Expanding the StrokeNet paper
 - ㅐ是分成哪两部分（两种切分方式）
 - ㅝ的右侧部分算是ㅓ吗  
 搜索到[韩国网站](https://www.korean.go.kr/hangeul/principle/001.html)，比较有帮助  
+
+字母拆分：
+![R8 (L2LTHWF4E`PMW9YOFCF](https://github.com/cs-wangfeng/StrokeNet2/assets/83827774/8ed72772-1a78-42e9-b3b4-4fcbc4afa4b6)
 
