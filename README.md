@@ -18,5 +18,6 @@ Expanding the StrokeNet paper
 
 有些细节需要明白：  
 - ㅐ是分成哪两部分（两种切分方式）
-- ㅝ的右侧部分算是ㅓ吗
+- ㅝ的右侧部分算是ㅓ吗  
+搜索到[韩国网站](https://www.korean.go.kr/hangeul/principle/001.html)，比较有帮助  
 
