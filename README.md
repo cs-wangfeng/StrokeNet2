@@ -102,8 +102,8 @@ elif letter == 'ㅀ':
 ```
 
 至此：
-ori_ko_char.txt为原2028韩文字表   
-ori_ko2letter.txt为原2028韩文字对应拉丁字母表  
-ko2letter.txt为删减（ancient Hangul）过后的韩文字对应拉丁字母表  
+- ori_ko_char.txt和korean_char.txt为原2028韩文字表   
+- ori_ko2letter.txt为原2028韩文字对应拉丁字母表  
+- ko2letter.txt为删减（ancient Hangul）过后的韩文字对应拉丁字母表  
 
 
