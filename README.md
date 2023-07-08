@@ -71,4 +71,35 @@ Expanding the StrokeNet paper
 
 删去ancient korean等一些无法显示的韩语文字，获得最终版的ko2letter.txt表
 
+经检查发现，hgtk对于韩文字的拆分并不彻底，例如‘없’拆完之后最小单元仍包含‘ㅄ’，这样的拆分不彻底的情况完全发生于韩文字下部含有两个基本字母的情况，编写代码查询有多少个这样的情况，因为这种情况下未拆分彻底的内容不会显示，会与其他韩文字发生重复，因此查询重复的拆分拉丁字母序列即可，查询代码见find_same.py。  
+
+经过查询，有49种情况重复，只有一种情况是韩文字重复，其余全是由于拆分不彻底导致的。（修改前后重复结果见find_same.txt和find_same1.txt，find_same1.txt的那个就是韩文字重复的情况）  
+
+添加的新的匹配内容（修改内容）如下：   
+```python
+elif letter == 'ㅀ':
+            letter_list.append('nm')
+        elif letter == 'ㄺ':
+            letter_list.append('ni')
+        elif letter == 'ㄼ':
+            letter_list.append('nf') 
+        elif letter == 'ㄿ':
+            letter_list.append('nb')
+        elif letter == 'ㄾ':
+            letter_list.append('np')
+        elif letter == 'ㄻ':
+            letter_list.append('nw')                      
+        elif letter == 'ㅄ':
+            letter_list.append('fs')
+        elif letter == 'ㄽ':
+            letter_list.append('ns')
+        elif letter == 'ㄶ':
+            letter_list.append('om')
+        elif letter == 'ㄳ':
+            letter_list.append('is')
+        elif letter == 'ㄵ':
+            letter_list.append('oc')
+```
+
+
 
