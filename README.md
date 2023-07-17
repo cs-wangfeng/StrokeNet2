@@ -116,4 +116,15 @@ cipher1.txt和cipher2.txt都是映射表，使用cipher.py进行转换，得到�
 
 bpe的shell脚本在bpe.sh
 
+之后使用multi_binarize.sh进行二值化
+
 生成在bpe中（注意原来的StrokeNet是放在stroke_data里面）
+
+### 进行训练
+
+模仿StrokeNet编写train.sh，使用fairseq进行训练，目前在运行中。
+
+## Baseline实验
+
+
+
