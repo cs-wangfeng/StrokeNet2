@@ -126,5 +126,5 @@ bpe的shell脚本在bpe.sh
 
 ## Baseline实验
 
-
+## 两个韩语字母之间不空空格，再BPE跑一次
 
